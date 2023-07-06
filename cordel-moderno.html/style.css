@@ -25,6 +25,7 @@ body {
 }
 
 header {
+
     background-color: black;
     color: white;
     text-align: center;
@@ -32,7 +33,7 @@ header {
 }
 
 header>h1 {
-    font-family: var(--fonte2);
+    font-family: var(--fonte3);
     padding-top: 50px;
     /*text-transform: uppercase; LETRAS EM CAIXA ALTA*/
     font-variant: small-caps;
@@ -64,14 +65,17 @@ section {
     padding-left: 30px;
 }
 
-section>p {
+section > p {
     padding-bottom: 2em;
 }
 
 section.imagem > p {
     display: inline-block;
     width: 400px;
-    background-color: rgb(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.678);
+   text-shadow: 2px 2px 0px black;
+   padding: 20px;
+
 }
 
 section.normal {
@@ -80,18 +84,25 @@ section.normal {
 }
 
 section.imagem {
-    background-color: rgba(0, 0, 0, 0.651);
+    background-color: #00000046;
     text-shadow: 1px 1px 0px black;
     color: white;
+    box-shadow: inset 7px 7px 13px 0px rgba(0, 0, 0, 0.788);
+    background-size: cover;
+    background-attachment: fixed;
+   
+
 }
 
 section#img01 {
     background-image: url(imagens/background001.jpg);
     background-position: right center;
+
 }
 
 section#img02 {
     background-image: url(imagens/background002.jpg);
+    background-position: right center;
  
 }
 
